@@ -1,0 +1,3 @@
+There are two entry points for the program (main functions). The first is in SmellyMiceSim.java which runs the simulation with normal parameters, captures chance and multipliers for both species. The other is in SmellyMiceSim2.java, which allows the user to specify a range of values for the mouse same species multiplier. This is done by having a start and end parameter and a value to increment each step by.
+
+Please note that the code should not be seen as an example of good java programming. For example the code that runs the simulation really needs to be put into a SwingWorker so that it does not lock up the GUI whilst it is running. Having said the program does what it needs to do and produces the results that are needed.
